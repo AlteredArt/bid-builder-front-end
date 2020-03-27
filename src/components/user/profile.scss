@@ -1,0 +1,28 @@
+nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 10vh;
+  font-size: calc(10px + 2vmin);
+  // background: rgb(73, 79, 82);
+  background-color: #282c34;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  // padding-bottom: 2px;
+  margin-bottom: 30px;
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  // justify-content: space-around;
+  justify-content: space-between;
+  // align-items: center;
+
+}
+.logo{
+  padding-right: 90px;
+
+}
